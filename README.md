@@ -19,7 +19,6 @@ The script uses simple mathematical formulas to convert between:
 Celsius ⇄ Fahrenheit
 Celsius ⇄ Kelvin
 Fahrenheit ⇄ Kelvin at a time.
-
 🔧 Features:
 ✅ Convert between Celsius, Fahrenheit, and Kelvin
 ⚡ Instant results as you type
