@@ -1,0 +1,110 @@
+h1{
+    color:azure;
+    text-align: center;
+    font-size: 4cqmax;
+    padding-left: 20%;
+    text-shadow: 3cqmax;
+    text-shadow: 5px 5px black;
+}
+
+input{
+    box-decoration-break:slice;
+    box-shadow:3px 3px 2px 3px ;
+    color: black;
+}
+
+#celsius{
+    width: 140px;
+    height: 34px;
+    position: relative;
+    margin-top: 6%;
+    margin-right: 3%;
+    align-items: center;
+    border:3px solid black;
+    border-radius: 6px;
+    transform:translateY(360deg);
+    transform: scaleY(1.5);
+}
+
+#fahrenheit{
+    width: 140px;
+    height: 34px;
+    position: relative;
+    margin-right: 3%;
+    align-items: center;
+    border:3px solid black;
+    border-radius: 6px;
+    transform:translateY(360deg);
+    transform: scaleY(1.5);
+}
+
+#kelvin{
+    width: 140px;
+    height: 34px;
+    position: relative;
+    align-items: center;
+    border:3px solid black;
+    border-radius: 6px;
+    transform:translateY(360deg);
+    transform: scaleY(1.5);
+}
+
+label{
+    color: black;
+    position:relative;
+    padding-top:70% ;
+    align-items:center;
+    text-shadow: 4px 4px 2px red ;
+}
+
+.guy{
+    position:absolute;
+    height: 50%;
+    left:50%;
+    bottom: 5%;
+    margin-top: 5%;
+    transform: translateX(-50%);
+    animation: goleft 60s linear infinite;    
+}
+
+.contain,h1{
+    padding: 1%;
+    margin: 1vmin;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: cornflowerblue;
+    background-image: url(./background.jpeg),
+                      url(./background.jpeg),
+                      url(./background.jpeg),
+                      url(./background.jpeg),
+                      url(./background.jpeg);
+    background-size: 100vw 100%;
+    background-position: 0px 0px;
+    animation: goleft 60s linear infinite;
+    transform:translateY(2%);
+    background-repeat:repeat-x initial;
+    border-radius: 20px;
+}
+
+@keyframes goleft {
+    100%{
+        background-position: 500vw 0px,
+                             400vw 0px,
+                             300vw 0px,
+                             200vw 0px,
+                             100vw 0px;
+    }
+}
+
+@media (max-width:768px)
+{
+    .contain{
+        height: 320px;
+    }
+}
+
+html{
+    background-color:lightslategray;
+    background-image: linear-gradient(lightslategray, black);
+}
